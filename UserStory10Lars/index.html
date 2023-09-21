@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wochentagsauswahl</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans">
+<div class="flex border border-gray-300">
+  <div class="w-1/4 p-4 bg-gray-200">
+    <div class="mb-4">
+      <button id="pickDate" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700">Pick Date</button>
+      <span id="selectedDate" class="ml-2">2023-09-21</span>
+    </div>
+    <div class="mb-4">
+      <div class="cursor-pointer mb-2">Montag</div>
+      <div class="flex items-center">
+        <span class="border border-gray-300 px-2 py-1 mr-2">Item1</span>
+      </div>
+    </div>
+    <div class="mb-4">
+      <div class="cursor-pointer mb-2">Dienstag</div>
+      <div class="flex items-center">
+        <span class="border border-gray-300 px-2 py-1 mr-2">Item1</span>
+      </div>
+    </div>
+    <div class="mb-4">
+      <div class="cursor-pointer mb-2">Mittwoch</div>
+      <div class="flex items-center">
+        <span class="border border-gray-300 px-2 py-1 mr-2">Item1</span>
+      </div>
+    </div>
+    <div class="mb-4">
+      <div class="cursor-pointer mb-2">Donnerstag</div>
+      <div class="flex items-center">
+        <span class="border border-gray-300 px-2 py-1 mr-2">Item1</span>
+      </div>
+    </div>
+    <div class="mb-4">
+      <div class="cursor-pointer mb-2">Freitag</div>
+      <div class="flex items-center">
+        <span class="border border-gray-300 px-2 py-1 mr-2">Item1</span>
+      </div>
+    </div>
+  </div>
+  <div class="flex-grow p-4">
+    <div class="text-2xl font-bold" id="selectedDay">Wochentag</div>
+    <div class="text-xl" id="selectedItem">Untergeordnetes Element</div>
+    <textarea class="w-full h-40 mt-4 border border-gray-300"></textarea>
+    <button class="mt-4 bg-blue-500 text-white py-2 px-4 rounded float-right">Speichern</button>
+  </div>
+</div>
+</body>
+</html>
