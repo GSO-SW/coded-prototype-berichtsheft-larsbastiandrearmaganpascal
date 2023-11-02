@@ -7,11 +7,11 @@
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="font-sans">
-<div class="flex border border-gray-300">
-  <div class="w-1/4 p-4 bg-gray-200">
+<div class="flex flex-col md:flex-row border border-gray-300">
+  <div class="w-full md:w-1/4 p-4 bg-gray-200">
     <div class="mb-4">
-      <button id="pickDate" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700">Pick Date</button>
-      <span id="selectedDate" class="ml-2">2023-09-21</span>
+      <button id="pickDate" class="w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700">Pick Date</button>
+      <span id="selectedDate" class="mt-2 text-center md:text-center">2023-09-21</span>
     </div>
     <div class="mb-4">
       <div class="cursor-pointer mb-2">Montag</div>
@@ -48,7 +48,7 @@
     <div class="text-2xl font-bold" id="selectedDay">Wochentag</div>
     <div class="text-xl" id="selectedItem">Untergeordnetes Element</div>
     <textarea class="w-full h-40 mt-4 border border-gray-300"></textarea>
-    <button class="mt-4 bg-blue-500 text-white py-2 px-4 rounded float-right">Speichern</button>
+    <button class="mt-4 w-full md:w-auto bg-blue-500 text-white py-2 px-4 rounded">Speichern</button>
   </div>
 </div>
 </body>
