@@ -1,0 +1,125 @@
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.TNE{ 
+
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    margin: auto;
+    width: 420px; height: 50px;
+    text-align: center;
+    background-color: aqua;
+    margin-bottom: 15px;
+}
+   
+.INE{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.ione{
+    width:170px;
+    margin-right: 5px;
+}
+.itwo{
+    width:170px;
+}
+
+
+.TAJ{ 
+
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    margin: auto;
+    width: 420px; height: 50px;
+    text-align: center;
+    background-color: aqua;
+    margin-bottom: 15px;
+}
+
+.IAJ{
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.IAJN{
+    width: 350px; 
+}
+
+.TAB{
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    margin: auto;
+    width: 420px; height: 50px;
+    text-align: center;
+    background-color: aqua;
+    margin-bottom: 15px;
+}
+
+.IAB{
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.IABT{
+    width: 350px; 
+}
+
+.TAW{
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    margin: auto;
+    width: 420px; height: 50px;
+    text-align: center;
+    background-color: aqua;
+    margin-bottom: 15px;
+}
+
+.IAW{
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.IAWN{
+    width: 350px; 
+}
+
+
+.BEB{
+    
+    width:30px; height: 30px;
+    
+}
+
+.BUB{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.BEB1{
+    cursor: pointer;
+}
+
+.BU{
+    text-align: center;
+}
+.BUL1{
+    width: 420px; height: 50px;
+    background-color: red;
+    color:white;
+    border-radius: 10px;
+}
+
+.BUB1{
+    width: 420px; height: 50px;
+    background-color: green;
+    color:white;
+    border-radius: 10px;
+    margin-left: 50px;
+}
