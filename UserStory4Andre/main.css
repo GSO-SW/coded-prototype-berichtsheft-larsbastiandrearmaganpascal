@@ -1,0 +1,45 @@
+/* .hier2{
+    margin-left: 40px;
+} */
+.row{
+    margin-top:5%;
+}
+ul  {
+    list-style: none;
+}
+.ebeneOne{
+    margin-top: 2%;
+    padding-left: 0;
+}
+
+
+
+.sidebar{
+    margin-top:2%;
+}
+
+li{
+    margin-bottom:2%;
+}
+
+textarea{
+    width:100%;
+    height:70%;
+}
+
+#save{
+    text-align: right;
+    color: black;
+}
+
+h1{
+    text-align: center;
+}
+
+.row{
+    margin: 30px;
+}
+#selected{
+   
+    background-color: lightblue;
+}
